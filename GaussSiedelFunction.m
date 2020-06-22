@@ -1,5 +1,5 @@
 function func = GaussSiedelFunction(A,b,init,tol,maxit)
-%% Gauss Seidel Method 
+%% Gauss Seidel Method
 %% Solution of x in Ax=b using Gauss Seidel Method
 if nargin<3,error('at least 3 input arguments required'),end
 if nargin<5 | isempty(maxit),maxit=50;end
